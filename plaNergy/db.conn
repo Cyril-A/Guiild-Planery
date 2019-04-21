@@ -1,0 +1,8 @@
+$host = 'localhost';
+$root = "root";
+$pass = "";
+$db = "planergy";
+$pwd = md5($pwd1);
+
+
+$conn = mysqli_connect($host, $root, $pass, $db) or die("Failed to connect to database");
