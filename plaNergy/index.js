@@ -35,7 +35,7 @@ const user = new Users();
 app.use(bodyParser.json());
 app.use(urlencodedparser);
 
-//HomePage
+//HomePage routing
 app.get('/', function(req, res){
 	res.render('home');
 });
