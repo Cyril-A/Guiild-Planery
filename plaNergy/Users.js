@@ -1,4 +1,4 @@
-//Import sha256 hashing algorithm
+//Import sha256 hashing algorithm for hashing
 const sha256 = require('sha256');
 const currentNodeUrl = process.argv[3];//Get current nodes URL
 const uuid = require('uuid/v1');//import UUID library to create unique random string
