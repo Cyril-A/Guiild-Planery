@@ -210,7 +210,7 @@ Blockchain.prototype.getAddressData = function(address){
 
 
 //Export Blockchain
-module.exports = Blockchain;
+module.exports = ;
 
 
 
